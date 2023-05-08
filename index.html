@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+    
+</head>
+<body >
+
+    
+    
+    
+    <script>
+         var colors = ["green", "white", "yellow", "red", "blue", "black"];
+        function myfunc() {
+            window.location.href = '/'
+            var random_number = Math.random() * colors.length;
+            random_number = Math.floor(random_number);
+            document.body.style.backgroundColor = colors[random_number];
+            console.log(random_number);
+        }
+       
+        window.onclick = myfunc;
+       
+    </script>
+    
+</body>
+</html>
